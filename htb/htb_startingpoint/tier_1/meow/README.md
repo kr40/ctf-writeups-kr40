@@ -1,4 +1,4 @@
-# HTB Sarting Point Tier 1 - Meow
+# HTB Starting Point Tier 1 - Meow
 
 - IP Provided - 10.129.128.183
 
