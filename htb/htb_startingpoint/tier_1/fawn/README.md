@@ -2,12 +2,12 @@
 
 - IP Provided - 10.129.1.14
 
-## Basic Recon
+## Recon and Discovery
 
 - nmap found - 21/tcp open  ftp     syn-ack ttl 63 vsftpd 3.0.3
 	- ftp-anon: Anonymous FTP login allowed (FTP code 230)
 
-## Enumeration
+## Analysis and Exploitation
 
 - Using the `ftp` utility and `anonymous:anonymous` I was able to login
 - Using the `ls` command I was able to see `flag.txt`
