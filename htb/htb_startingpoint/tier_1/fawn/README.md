@@ -9,4 +9,11 @@
 
 ## Enumeration
 
-- Using the `ftp` utility 
+- Using the `ftp` utility and `anonymous:anonymous` I was able to login
+- Using the `ls` command I was able to see `flag.txt`
+- Using the `get flag.txt` command I was able to download `flag.txt` 
+- `cat flag.txt` reveals the flag
+
+## Difficulty - Very Easy
+
+- Machine Introduces `ftp anonymous login` through which we are able to login to `ftp` service with `anonymous:anonymous` as credentials
