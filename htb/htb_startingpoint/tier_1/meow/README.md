@@ -2,11 +2,11 @@
 
 - IP Provided - 10.129.128.183
 
-## Basic Recon
+## Recon and Discovery
 
 - nmap found - 23/tcp open  telnet    
 
-## Enumeration
+## Analysis and Exploitation
 
 - Using the `telnet` command to connect I was able to login with the username `root` without providing a `password`
 
