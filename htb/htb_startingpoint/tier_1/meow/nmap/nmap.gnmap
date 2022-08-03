@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Wed Aug  3 16:50:27 2022 as: nmap -vvv -p 23 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/meow/nmap -sC -sV -A -T4 10.129.128.183
+# Ports scanned: TCP(1;23) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.128.183 ()	Status: Up
+Host: 10.129.128.183 ()	Ports: 23/open/tcp//telnet//Linux telnetd/	Seq Index: 256	IP ID Seq: All zeros
+# Nmap done at Wed Aug  3 16:51:04 2022 -- 1 IP address (1 host up) scanned in 37.16 seconds
