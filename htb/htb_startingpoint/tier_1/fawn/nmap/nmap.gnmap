@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Wed Aug  3 17:26:49 2022 as: nmap -vvv -p 21 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/fawn/nmap/ -sC -sV -A -T4 10.129.1.14
+# Ports scanned: TCP(1;21) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.1.14 ()	Status: Up
+Host: 10.129.1.14 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Wed Aug  3 17:27:27 2022 -- 1 IP address (1 host up) scanned in 37.34 seconds

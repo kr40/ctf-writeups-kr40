@@ -4,9 +4,9 @@
 
 ## Basic Recon
 
-- nmap found - tcp/23 telnet OPEN
+- nmap found - 23/tcp open  telnet    
 
-## Enumerateion
+## Enumeration
 
 - Using the `telnet` command to connect I was able to login with the username `root` without providing a `password`
 
