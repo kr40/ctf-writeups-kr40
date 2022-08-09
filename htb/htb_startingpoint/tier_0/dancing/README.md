@@ -19,4 +19,4 @@
 
 ## Difficulty - Very Easy
 
-- Machine introduces `SMB` and how to navigate Shares using `smbclient`
+- Machine introduces `SMB` and how to navigate shares using `smbclient`
