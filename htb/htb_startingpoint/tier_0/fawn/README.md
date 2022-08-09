@@ -16,4 +16,4 @@
 
 ## Difficulty - Very Easy
 
-- Machine Introduces `ftp anonymous login` through which we are able to login to `ftp` service with `anonymous:anonymous` as credentials
+- Machine introduces `ftp anonymous login` through which we are able to login to `ftp` service with `anonymous:anonymous` as credentials
