@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Tue Aug  9 14:55:16 2022 as: nmap -A -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/dancing/nmap 10.129.213.119
+Host: 10.129.213.119 ()	Status: Up
+Host: 10.129.213.119 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: closed (997)	Seq Index: 256	IP ID Seq: Incremental
+# Nmap done at Tue Aug  9 14:56:09 2022 -- 1 IP address (1 host up) scanned in 53.25 seconds

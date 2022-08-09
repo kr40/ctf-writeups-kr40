@@ -1,0 +1,39 @@
+# Nmap 7.92 scan initiated Tue Aug  9 14:55:16 2022 as: nmap -A -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/dancing/nmap 10.129.213.119
+Nmap scan report for 10.129.213.119
+Host is up (0.15s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=8/9%OT=135%CT=1%CU=36191%PV=Y%DS=2%DC=T%G=Y%TM=62F2283
+OS:1%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=105%TI=I%CI=I%II=I%SS=S%TS=
+OS:U)OPS(O1=M54DNW8NNS%O2=M54DNW8NNS%O3=M54DNW8%O4=M54DNW8NNS%O5=M54DNW8NNS
+OS:%O6=M54DNNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%
+OS:DF=Y%T=80%W=FFFF%O=M54DNW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF
+OS:=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=
+OS:%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=
+OS:G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2022-08-09T13:26:05
+|_  start_date: N/A
+|_clock-skew: 3h59m59s
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   147.99 ms 10.10.14.1
+2   148.30 ms 10.129.213.119
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug  9 14:56:09 2022 -- 1 IP address (1 host up) scanned in 53.25 seconds
