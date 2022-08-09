@@ -1,4 +1,4 @@
-# HTB Starting Point Tier 1 - Meow
+# HTB Starting Point Tier 0 - Meow
 
 - IP Provided - 10.129.128.183
 
@@ -16,4 +16,4 @@
 
 ## Difficulty - Very Easy
 
-- Being the first box in the Starting Point Tier 1 this is the easiest box available
+- Being the first box in the Starting Point Tier 0 this is the easiest box available

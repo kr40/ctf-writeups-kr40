@@ -1,4 +1,4 @@
-# HTB Starting Point Tier 1 - Fawn
+# HTB Starting Point Tier 0 - Fawn
 
 - IP Provided - 10.129.1.14
 

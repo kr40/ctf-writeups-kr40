@@ -1,4 +1,4 @@
-# HTB Starting Point Tier 1 - 
+# HTB Starting Point Tier 0 - 
 
 - IP Provided - 
 
