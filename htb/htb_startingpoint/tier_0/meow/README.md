@@ -10,7 +10,7 @@
 
 - Using the `telnet` command to connect I was able to login with the username `root` without providing a `password`
 
-- Using `ls` int the root directory shows we have a `flag.txt`
+- Using `ls` in the root directory shows we have a `flag.txt`
 
 - `cat flag.txt` reveals the flag
 
