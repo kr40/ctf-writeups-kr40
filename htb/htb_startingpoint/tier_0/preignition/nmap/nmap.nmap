@@ -1,0 +1,15 @@
+# Nmap 7.92 scan initiated Wed Aug 10 12:24:54 2022 as: nmap -sC -sV -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/preignition/nmap/nmap 10.129.179.103
+Nmap scan report for 10.129.179.103
+Host is up (0.15s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.14.2
+| http-vulners-regex: 
+|   /default.cfm: 
+|     cpe:/a:igor_sysoev:nginx:1.14.2
+|_    cpe:/a:nginx:nginx:1.14.2
+|_http-server-header: nginx/1.14.2
+|_http-title: Welcome to nginx!
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 10 12:25:47 2022 -- 1 IP address (1 host up) scanned in 53.03 seconds

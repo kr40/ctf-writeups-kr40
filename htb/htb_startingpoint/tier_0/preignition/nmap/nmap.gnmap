@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Aug 10 12:24:54 2022 as: nmap -sC -sV -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/preignition/nmap/nmap 10.129.179.103
+Host: 10.129.179.103 ()	Status: Up
+Host: 10.129.179.103 ()	Ports: 80/open/tcp//http//nginx 1.14.2/	Ignored State: closed (999)
+# Nmap done at Wed Aug 10 12:25:47 2022 -- 1 IP address (1 host up) scanned in 53.03 seconds

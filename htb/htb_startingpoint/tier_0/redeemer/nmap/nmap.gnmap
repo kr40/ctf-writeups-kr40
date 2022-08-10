@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Aug 10 11:24:12 2022 as: nmap -sC -sV -p- -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/redeemer/nmap/nmap 10.129.179.91
+Host: 10.129.179.91 ()	Status: Up
+Host: 10.129.179.91 ()	Ports: 6379/open/tcp//redis//Redis key-value store 5.0.7/	Ignored State: closed (65534)
+# Nmap done at Wed Aug 10 11:27:11 2022 -- 1 IP address (1 host up) scanned in 179.18 seconds

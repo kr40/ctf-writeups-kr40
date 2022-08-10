@@ -1,0 +1,25 @@
+# Nmap 7.92 scan initiated Wed Aug 10 11:24:12 2022 as: nmap -sC -sV -p- -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/redeemer/nmap/nmap 10.129.179.91
+Nmap scan report for 10.129.179.91
+Host is up (0.15s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value store 5.0.7
+| vulners: 
+|   cpe:/a:redislabs:redis:5.0.7: 
+|     	CVE-2021-32762	9.0	https://vulners.com/cve/CVE-2021-32762
+|     	CVE-2021-32626	6.5	https://vulners.com/cve/CVE-2021-32626
+|     	CVE-2021-21309	6.5	https://vulners.com/cve/CVE-2021-21309
+|     	CVE-2021-41099	6.0	https://vulners.com/cve/CVE-2021-41099
+|     	CVE-2021-32761	6.0	https://vulners.com/cve/CVE-2021-32761
+|     	CVE-2021-32687	6.0	https://vulners.com/cve/CVE-2021-32687
+|     	CVE-2021-32628	6.0	https://vulners.com/cve/CVE-2021-32628
+|     	CVE-2021-32627	6.0	https://vulners.com/cve/CVE-2021-32627
+|     	CVE-2021-3470	5.0	https://vulners.com/cve/CVE-2021-3470
+|     	CVE-2021-32675	5.0	https://vulners.com/cve/CVE-2021-32675
+|     	CVE-2020-21468	5.0	https://vulners.com/cve/CVE-2020-21468
+|     	CVE-2015-8080	5.0	https://vulners.com/cve/CVE-2015-8080
+|     	CVE-2021-32672	4.0	https://vulners.com/cve/CVE-2021-32672
+|_    	CVE-2020-14147	4.0	https://vulners.com/cve/CVE-2020-14147
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 10 11:27:11 2022 -- 1 IP address (1 host up) scanned in 179.18 seconds

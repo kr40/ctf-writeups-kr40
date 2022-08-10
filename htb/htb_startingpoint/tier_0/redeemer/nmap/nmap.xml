@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Wed Aug 10 11:24:12 2022 as: nmap -sC -sV -p- -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/redeemer/nmap/nmap 10.129.179.91 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p- -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/redeemer/nmap/nmap 10.129.179.91" start="1660110852" startstr="Wed Aug 10 11:24:12 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.179.91" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1660110926" percent="42.82" remaining="91" etc="1660111017"/>
+<host starttime="1660110858" endtime="1660111031"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.179.91" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="reset" count="65534" proto="tcp" ports="1-6378,6380-65535"/>
+</extraports>
+<port protocol="tcp" portid="6379"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="redis" product="Redis key-value store" version="5.0.7" method="probed" conf="10"><cpe>cpe:/a:redislabs:redis:5.0.7</cpe></service><script id="vulners" output="&#xa;  cpe:/a:redislabs:redis:5.0.7: &#xa;    &#x9;CVE-2021-32762&#x9;9.0&#x9;https://vulners.com/cve/CVE-2021-32762&#xa;    &#x9;CVE-2021-32626&#x9;6.5&#x9;https://vulners.com/cve/CVE-2021-32626&#xa;    &#x9;CVE-2021-21309&#x9;6.5&#x9;https://vulners.com/cve/CVE-2021-21309&#xa;    &#x9;CVE-2021-41099&#x9;6.0&#x9;https://vulners.com/cve/CVE-2021-41099&#xa;    &#x9;CVE-2021-32761&#x9;6.0&#x9;https://vulners.com/cve/CVE-2021-32761&#xa;    &#x9;CVE-2021-32687&#x9;6.0&#x9;https://vulners.com/cve/CVE-2021-32687&#xa;    &#x9;CVE-2021-32628&#x9;6.0&#x9;https://vulners.com/cve/CVE-2021-32628&#xa;    &#x9;CVE-2021-32627&#x9;6.0&#x9;https://vulners.com/cve/CVE-2021-32627&#xa;    &#x9;CVE-2021-3470&#x9;5.0&#x9;https://vulners.com/cve/CVE-2021-3470&#xa;    &#x9;CVE-2021-32675&#x9;5.0&#x9;https://vulners.com/cve/CVE-2021-32675&#xa;    &#x9;CVE-2020-21468&#x9;5.0&#x9;https://vulners.com/cve/CVE-2020-21468&#xa;    &#x9;CVE-2015-8080&#x9;5.0&#x9;https://vulners.com/cve/CVE-2015-8080&#xa;    &#x9;CVE-2021-32672&#x9;4.0&#x9;https://vulners.com/cve/CVE-2021-32672&#xa;    &#x9;CVE-2020-14147&#x9;4.0&#x9;https://vulners.com/cve/CVE-2020-14147"><table key="cpe:/a:redislabs:redis:5.0.7">
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">9.0</elem>
+<elem key="id">CVE-2021-32762</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">6.5</elem>
+<elem key="id">CVE-2021-32626</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">6.5</elem>
+<elem key="id">CVE-2021-21309</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">6.0</elem>
+<elem key="id">CVE-2021-41099</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">6.0</elem>
+<elem key="id">CVE-2021-32761</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">6.0</elem>
+<elem key="id">CVE-2021-32687</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">6.0</elem>
+<elem key="id">CVE-2021-32628</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">6.0</elem>
+<elem key="id">CVE-2021-32627</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">5.0</elem>
+<elem key="id">CVE-2021-3470</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">5.0</elem>
+<elem key="id">CVE-2021-32675</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">5.0</elem>
+<elem key="id">CVE-2020-21468</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">5.0</elem>
+<elem key="id">CVE-2015-8080</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">4.0</elem>
+<elem key="id">CVE-2021-32672</elem>
+<elem key="is_exploit">false</elem>
+</table>
+<table>
+<elem key="type">cve</elem>
+<elem key="cvss">4.0</elem>
+<elem key="id">CVE-2020-14147</elem>
+<elem key="is_exploit">false</elem>
+</table>
+</table>
+</script></port>
+</ports>
+<times srtt="150410" rttvar="101" to="150814"/>
+</host>
+<runstats><finished time="1660111031" timestr="Wed Aug 10 11:27:11 2022" summary="Nmap done at Wed Aug 10 11:27:11 2022; 1 IP address (1 host up) scanned in 179.18 seconds" elapsed="179.18" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Aug 10 11:48:15 2022 as: nmap -sC -sV -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_0/explosion/nmap/nmap 10.129.38.155
+Host: 10.129.38.155 ()	Status: Up
+Host: 10.129.38.155 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Services/	Ignored State: closed (996)
+# Nmap done at Wed Aug 10 11:48:48 2022 -- 1 IP address (1 host up) scanned in 32.83 seconds
