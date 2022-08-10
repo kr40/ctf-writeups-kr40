@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Aug 10 16:04:36 2022 as: nmap -sC -sV -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/crocodile/nmap/nmap 10.129.1.15
+Host: 10.129.1.15 ()	Status: Up
+Host: 10.129.1.15 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/	Ignored State: closed (998)
+# Nmap done at Wed Aug 10 16:05:31 2022 -- 1 IP address (1 host up) scanned in 55.06 seconds

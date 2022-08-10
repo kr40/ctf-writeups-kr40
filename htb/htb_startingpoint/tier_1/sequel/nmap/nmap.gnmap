@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Aug 10 15:15:50 2022 as: nmap -sC -sV -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/sequel/nmap/nmap 10.129.179.130
+Host: 10.129.179.130 ()	Status: Up
+Host: 10.129.179.130 ()	Ports: 3306/open/tcp//mysql?///	Ignored State: closed (999)
+# Nmap done at Wed Aug 10 15:19:22 2022 -- 1 IP address (1 host up) scanned in 212.00 seconds
