@@ -1,0 +1,43 @@
+# Nmap 7.92 scan initiated Wed Aug 10 22:37:52 2022 as: nmap -sC -sV -T4 -p- -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/responder/nmap/nmap 10.129.95.234
+Nmap scan report for 10.129.95.234
+Host is up (0.15s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.52 ((Win64) OpenSSL/1.1.1m PHP/8.1.1)
+| http-vulners-regex: 
+|   /localstart.pl: 
+|_    cpe:/a:php:php:8.1.1
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.52: 
+|     	CVE-2022-31813	7.5	https://vulners.com/cve/CVE-2022-31813
+|     	CVE-2022-23943	7.5	https://vulners.com/cve/CVE-2022-23943
+|     	CVE-2022-22720	7.5	https://vulners.com/cve/CVE-2022-22720
+|     	CVE-2022-22721	6.8	https://vulners.com/cve/CVE-2022-22721
+|     	CVE-2022-28615	6.4	https://vulners.com/cve/CVE-2022-28615
+|     	CVE-2021-44224	6.4	https://vulners.com/cve/CVE-2021-44224
+|     	CVE-2022-30556	5.0	https://vulners.com/cve/CVE-2022-30556
+|     	CVE-2022-30522	5.0	https://vulners.com/cve/CVE-2022-30522
+|     	CVE-2022-29404	5.0	https://vulners.com/cve/CVE-2022-29404
+|     	CVE-2022-28614	5.0	https://vulners.com/cve/CVE-2022-28614
+|     	CVE-2022-26377	5.0	https://vulners.com/cve/CVE-2022-26377
+|     	CVE-2022-22719	5.0	https://vulners.com/cve/CVE-2022-22719
+|   cpe:/a:php:php:8.1.1: 
+|     	CVE-2022-31625	6.8	https://vulners.com/cve/CVE-2022-31625
+|     	CVE-2021-21708	6.8	https://vulners.com/cve/CVE-2021-21708
+|     	CVE-2022-31626	6.0	https://vulners.com/cve/CVE-2022-31626
+|_    	CVE-2022-31627	0.0	https://vulners.com/cve/CVE-2022-31627
+|_http-server-header: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1
+5985/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| vulners: 
+|   cpe:/a:php:php:8.1.1: 
+|     	CVE-2022-31625	6.8	https://vulners.com/cve/CVE-2022-31625
+|     	CVE-2021-21708	6.8	https://vulners.com/cve/CVE-2021-21708
+|     	CVE-2022-31626	6.0	https://vulners.com/cve/CVE-2022-31626
+|_    	CVE-2022-31627	0.0	https://vulners.com/cve/CVE-2022-31627
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 10 22:41:15 2022 -- 1 IP address (1 host up) scanned in 202.17 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Aug 10 22:37:52 2022 as: nmap -sC -sV -T4 -p- -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/responder/nmap/nmap 10.129.95.234
+Host: 10.129.95.234 ()	Status: Up
+Host: 10.129.95.234 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.52 ((Win64) OpenSSL|1.1.1m PHP|8.1.1)/, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (65533)
+# Nmap done at Wed Aug 10 22:41:15 2022 -- 1 IP address (1 host up) scanned in 202.17 seconds

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Wed Aug 10 22:37:52 2022 as: nmap -sC -sV -T4 -p- -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/responder/nmap/nmap 10.129.95.234 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -T4 -p- -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/responder/nmap/nmap 10.129.95.234" start="1660151272" startstr="Wed Aug 10 22:37:52 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.95.234" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="NSE" time="1660151450" percent="99.29" remaining="1" etc="1660151450"/>
+<host starttime="1660151278" endtime="1660151475"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.129.95.234" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-response" count="65533" proto="tcp" ports="1-79,81-5984,5986-65535"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Apache httpd" version="2.4.52" extrainfo="(Win64) OpenSSL/1.1.1m PHP/8.1.1" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.52</cpe><cpe>cpe:/a:php:php:8.1.1</cpe></service><script id="http-vulners-regex" output="&#xa;  /localstart.pl: &#xa;    cpe:/a:php:php:8.1.1"><table key="/localstart.pl">
+<elem>cpe:/a:php:php:8.1.1</elem>
+</table>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html; charset=UTF-8)."></script><script id="vulners" output="&#xa;  cpe:/a:apache:http_server:2.4.52: &#xa;    &#x9;CVE-2022-31813&#x9;7.5&#x9;https://vulners.com/cve/CVE-2022-31813&#xa;    &#x9;CVE-2022-23943&#x9;7.5&#x9;https://vulners.com/cve/CVE-2022-23943&#xa;    &#x9;CVE-2022-22720&#x9;7.5&#x9;https://vulners.com/cve/CVE-2022-22720&#xa;    &#x9;CVE-2022-22721&#x9;6.8&#x9;https://vulners.com/cve/CVE-2022-22721&#xa;    &#x9;CVE-2022-28615&#x9;6.4&#x9;https://vulners.com/cve/CVE-2022-28615&#xa;    &#x9;CVE-2021-44224&#x9;6.4&#x9;https://vulners.com/cve/CVE-2021-44224&#xa;    &#x9;CVE-2022-30556&#x9;5.0&#x9;https://vulners.com/cve/CVE-2022-30556&#xa;    &#x9;CVE-2022-30522&#x9;5.0&#x9;https://vulners.com/cve/CVE-2022-30522&#xa;    &#x9;CVE-2022-29404&#x9;5.0&#x9;https://vulners.com/cve/CVE-2022-29404&#xa;    &#x9;CVE-2022-28614&#x9;5.0&#x9;https://vulners.com/cve/CVE-2022-28614&#xa;    &#x9;CVE-2022-26377&#x9;5.0&#x9;https://vulners.com/cve/CVE-2022-26377&#xa;    &#x9;CVE-2022-22719&#x9;5.0&#x9;https://vulners.com/cve/CVE-2022-22719&#xa;  cpe:/a:php:php:8.1.1: &#xa;    &#x9;CVE-2022-31625&#x9;6.8&#x9;https://vulners.com/cve/CVE-2022-31625&#xa;    &#x9;CVE-2021-21708&#x9;6.8&#x9;https://vulners.com/cve/CVE-2021-21708&#xa;    &#x9;CVE-2022-31626&#x9;6.0&#x9;https://vulners.com/cve/CVE-2022-31626&#xa;    &#x9;CVE-2022-31627&#x9;0.0&#x9;https://vulners.com/cve/CVE-2022-31627"><table key="cpe:/a:apache:http_server:2.4.52">
+<table>
+<elem key="cvss">7.5</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-31813</elem>
+</table>
+<table>
+<elem key="cvss">7.5</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-23943</elem>
+</table>
+<table>
+<elem key="cvss">7.5</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-22720</elem>
+</table>
+<table>
+<elem key="cvss">6.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-22721</elem>
+</table>
+<table>
+<elem key="cvss">6.4</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-28615</elem>
+</table>
+<table>
+<elem key="cvss">6.4</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2021-44224</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-30556</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-30522</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-29404</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-28614</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-26377</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-22719</elem>
+</table>
+</table>
+<table key="cpe:/a:php:php:8.1.1">
+<table>
+<elem key="cvss">6.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-31625</elem>
+</table>
+<table>
+<elem key="cvss">6.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2021-21708</elem>
+</table>
+<table>
+<elem key="cvss">6.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-31626</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-31627</elem>
+</table>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1"><elem>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1</elem>
+</script></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="vulners" output="&#xa;  cpe:/a:php:php:8.1.1: &#xa;    &#x9;CVE-2022-31625&#x9;6.8&#x9;https://vulners.com/cve/CVE-2022-31625&#xa;    &#x9;CVE-2021-21708&#x9;6.8&#x9;https://vulners.com/cve/CVE-2021-21708&#xa;    &#x9;CVE-2022-31626&#x9;6.0&#x9;https://vulners.com/cve/CVE-2022-31626&#xa;    &#x9;CVE-2022-31627&#x9;0.0&#x9;https://vulners.com/cve/CVE-2022-31627"><table key="cpe:/a:php:php:8.1.1">
+<table>
+<elem key="cvss">6.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-31625</elem>
+</table>
+<table>
+<elem key="cvss">6.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2021-21708</elem>
+</table>
+<table>
+<elem key="cvss">6.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-31626</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2022-31627</elem>
+</table>
+</table>
+</script><script id="http-title" output="Not Found"><elem key="title">Not Found</elem>
+</script><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script></port>
+</ports>
+<times srtt="148066" rttvar="536" to="150210"/>
+</host>
+<runstats><finished time="1660151475" timestr="Wed Aug 10 22:41:15 2022" summary="Nmap done at Wed Aug 10 22:41:15 2022; 1 IP address (1 host up) scanned in 202.17 seconds" elapsed="202.17" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
