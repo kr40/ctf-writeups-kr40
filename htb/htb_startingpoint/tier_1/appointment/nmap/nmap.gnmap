@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Aug 10 13:16:41 2022 as: nmap -sC -sV -T4 -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/appointment/nmap/nmap 10.129.179.107
+Host: 10.129.179.107 ()	Status: Up
+Host: 10.129.179.107 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.38 ((Debian))/	Ignored State: closed (999)
+# Nmap done at Wed Aug 10 13:17:35 2022 -- 1 IP address (1 host up) scanned in 53.57 seconds
