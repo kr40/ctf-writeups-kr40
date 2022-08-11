@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Thu Aug 11 11:27:47 2022 as: nmap -sC -sV -T4 -p- -oA /home/kr40/Desktop/ctf/htb/htb_startingpoint/tier_1/three/nmap/nmap 10.129.180.49
+Host: 10.129.180.49 ()	Status: Up
+Host: 10.129.180.49 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/	Ignored State: closed (65533)
+# Nmap done at Thu Aug 11 11:31:50 2022 -- 1 IP address (1 host up) scanned in 243.15 seconds
